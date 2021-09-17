@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main(int argc, char const *argv[])
+{
+    int choise = 0;
+    printf("Picked Any Food Item: " );
+    scanf("%d", &choise);
+
+    switch (choise)
+    {
+    case 1:
+           printf("You Picked Burger.\n Rs.129");
+        break;
+    case 2 :
+           printf("You Picked Sandwitch. \n Rs.149");  
+        break;
+    case 3 :
+           printf("You Picked French Fries. \n Rs.99");
+        break;
+    case 4 :
+           printf("You Picked Pasta. \n Rs.179");
+        break;
+    case 5 :
+           printf("You Picked Pizza. \n Rs.239");
+        break;
+    
+    default:
+           printf("Invalid Choise");
+        break;
+    }
+
+
+
+    return 0;
+}
